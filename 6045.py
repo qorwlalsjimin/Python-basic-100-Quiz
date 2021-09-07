@@ -1,3 +1,4 @@
 n1, n2, n3 = map(int, input().split())
-print(n1+n2+n3)
-print(format((n1+n2+n3)/3, ".2f"))
+sum = n1+n2+n3
+average = format((n1+n2+n3)/3, ".2f")
+print(sum, average)
