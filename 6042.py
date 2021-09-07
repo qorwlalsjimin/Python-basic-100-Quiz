@@ -1,3 +1,2 @@
-f = input()
-result = float(f)*100
-print(int(result)/100)
+f = float(input())
+print(format(f,".2f"))
